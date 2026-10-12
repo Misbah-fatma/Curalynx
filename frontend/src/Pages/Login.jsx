@@ -119,11 +119,14 @@ export default function Login() {
                     Login
                   </button>
                   <div className="text-center">
-                    <p>
+                    <p className="mb-1">
                       Don’t have an account?{" "}
                       <a href="/register" className="text-primary fw-bold">
                         Register here
                       </a>
+                    </p>
+                    <p className="mb-0 text-muted" style={{ fontSize: "0.75rem" }}>
+                      Admin: admin@gmail.com · Password: 123
                     </p>
                   </div>
 
